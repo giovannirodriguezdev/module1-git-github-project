@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Jobs</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&family=Share+Tech+Mono&display=swap');
+
+        * {
+            font-family: 'Share Tech Mono', monospace;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        a:hover {
+            color: orangered;
+            background-color: black;
+        }
+
+        section {
+            background-color: antiquewhite;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .wrapper {
+            /* margin: 150px auto; */
+            display: flex;
+            align-items: center;
+        }
+
+        aside {
+            text-align: center;
+        }
+
+        img {
+            max-width: 300px;
+            float: left;
+            border-radius: 20px;
+        }
+
+        .text-box {
+            padding: 15px;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            background-color: antiquewhite;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+
+        #footer-title {
+            margin: 0;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        form {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        input {
+            display: flex;
+            padding: 3px;
+            margin: 5px;
+        }
+
+        #submit-btn {
+            margin: 5px;
+        }
+
+        #link {
+            font-size: 15px;
+        }
+
+        #link:hover {
+            background-color: orange;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav Section -->
+    <header>
+        <h1>Steve Jobs</h1>
+        <nav>
+            <ul>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+                <a href="#early-life">
+                    <li>Early Life</li>
+                </a>
+                <a href="#seva">
+                    <li>Seva Foundation</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Body Section -->
+    <section>
+        <div class="wrapper">
+            <aside>
+                <img src="https://cdn.vox-cdn.com/thumbor/yIoKynT0Jl-zE7yWwzmW2fy04xc=/0x0:706x644/1400x1400/filters:focal(353x322:354x323)/cdn.vox-cdn.com/uploads/chorus_asset/file/13874040/stevejobs.1419962539.png" alt="">
+                <caption><em>Steve Jobs</em></caption>
+            </aside>
+            <div class="text-box">
+                <h2 id="about">About</h1>
+                <p>Steve Jobs, born on February 24, 1955, in San Francisco, California, was a pioneer of the modern technology era, renowned for his groundbreaking contributions to the world of computing and consumer electronics. As the co-founder of Apple Inc., his visionary leadership and creative genius revolutionized industries, leaving an indelible mark on the way we live, work, and communicate.</p>
+            </div>
+        </div>
+        <div class="text-box">
+            <h2 id="early-life">Early Life</h2>
+            <p>From a young age, Steve displayed a curiosity and fascination with technology that set the stage for his remarkable journey. In 1976, he teamed up with Steve Wozniak and Ronald Wayne to establish Apple Computer, Inc. in a humble garage. This endeavor marked the birth of a company that would transform not only the tech landscape but also the world's relationship with innovation.</p>
+            <h2>Championing User-Friendly Computing</h2>
+            <p>One of Jobs' most significant contributions was his unwavering commitment to making technology accessible to everyone. He believed in simplifying complex tasks through intuitive interfaces. This philosophy culminated in the development of the Apple II, a personal computer that introduced the concept of user-friendly computing to a wider audience.</p>
+            <h2>The Macintosh Revolution</h2>
+            <p>In 1984, Jobs introduced the Macintosh, a computer that would forever change the way people interacted with technology. The Macintosh featured a graphical user interface and a mouse, setting new standards for user experience. His ability to combine technical prowess with artistic sensibilities elevated the Macintosh beyond a machine; it became a tool of creative expression.</p>
+
+            <h2>Legacy and Inspiration</h2>
+            <p>Steve Jobs' life and work continue to inspire individuals across the globe. His ability to foresee future trends, challenge conventions, and lead with passion has left an enduring legacy. His passing in 2011 was a loss to the world, but his spirit lives on in every Apple product and in the minds of those he inspired to think different and change the world.
+                <br><br>
+                Steve Jobs' story is a testament to the power of innovation, the impact of visionary leadership, and the potential for technology to shape human experiences. His influence remains embedded in the fabric of modern society, inspiring generations to dream big and push the boundaries of what's possible.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="seva">
+        <h2 id="footer-title">Steve Jobs and Seva</h2>
+        <h3 id="footer-title"><em>Get more info about Seva</em></h3>
+        <form action="">
+            <label for="name">First Name</label>
+            <input type="text" placeholder="first name">
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="email">
+
+            <input type="submit" id="submit-btn">
+        </form>
+        <p>Developed by: <a href="https://www.linkedin.com/in/giovanni-rodriguez-6666aaa3/" target="_blank" id="link">Giovanni Rodriguez</a></p>
+    </footer>
+</body>
+</html>
